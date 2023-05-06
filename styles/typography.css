@@ -4,5 +4,13 @@
     /* Body text */
     --font-secondary: "quasimoda";
     /* Basic font size */
-    --font-base-size: 10px;
+    --text-base-size: 10px;
+    /* Type scale */
+    --text-scale-ratio: 1.618;
+    --text-sm: var(--text-base-size);
+    --text-md: calc(var(--text-base-size) * var(--text-scale-ratio)); /*16.18px*/
+    --text-lg: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio)); /*26.18px*/
+    --text-xl: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio)); /*42.36px*/
+    --text-xxl: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio)); /*68.54px*/
+    --text-xxl: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio)); /*110.89px*/
 }
