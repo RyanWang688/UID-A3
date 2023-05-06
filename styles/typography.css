@@ -1,0 +1,8 @@
+:root{
+    /* Title and heading */
+    --font-primary: "quiverleaf-cf";
+    /* Body text */
+    --font-secondary: "quasimoda";
+    /* Basic font size */
+    --font-base-size: 10px;
+}
