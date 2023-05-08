@@ -12,5 +12,17 @@
     --text-lg: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio)); /*26.18px*/
     --text-xl: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio)); /*42.36px*/
     --text-xxl: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio)); /*68.54px*/
-    --text-xxl: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio)); /*110.89px*/
+    --text-xxxl: calc(var(--text-base-size) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio)); /*110.89px*/
+
+ 
+}
+/* heading */
+h1{
+    font-size: var(--text-xxxl);
+}
+h2{
+    font-size: var(--text-xxl);
+}
+h3{
+    font-size: var(--text-xl);
 }
