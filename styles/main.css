@@ -64,6 +64,12 @@
     margin-right: 30px;
 }
 /* Product display-BestSellers */
+.price{
+    font-family: var(--font-primary);
+    font-size: var(--text-md);
+    font-style: normal;
+    text-align: center;
+}
 .bestSellers{
     display: grid;
     grid-template-columns: 2.5fr 1.5fr 1.5fr;
@@ -84,9 +90,6 @@
     object-fit: cover;
 }
 .bestSellers-product-1{
-    display: flex;
-    flex-direction: column;
-    flex: 4;
     width: 1.5fr;
     height: 1fr;
     grid-row: 1/2;
@@ -96,12 +99,11 @@
     margin-right: 30px;
 }
 .bestSellers-product-1 > h5{
-    flex: 1;
-
+    text-align: center;
 }
 .bestSellers-product-1 img{
     width: 100%;
-    height: 100%;
+    height: 90%;
     object-fit: cover;
 }
 .bestSellers-product-2{
@@ -112,9 +114,12 @@
     overflow: hidden; 
     margin-right: 45px;
 }
+.bestSellers-product-2 > h5{
+    text-align: center;
+}
 .bestSellers-product-2 img{
     width: 100%;
-    height: 100%;
+    height: 90%;
     object-fit: cover;
 }
 .bestSellers-description{
