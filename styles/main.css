@@ -13,3 +13,8 @@
     width: 50%;
     height: 100%;
 }
+/* Product display, contain NewArrivals, BestSellers, Sales */
+.product-display{
+    display: flex;
+    flex-direction: column;
+}
