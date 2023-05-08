@@ -36,4 +36,5 @@ h4{
 h5{
     font-size: var(--text-md);
     font-family: var(--font-primary); 
+    font-style: bold;
 }
