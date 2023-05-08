@@ -72,10 +72,11 @@
 }
 .bestSellers{
     display: grid;
-    grid-template-columns: 2.5fr 1.5fr 1.5fr;
+    grid-template-columns: 4fr 1.5fr 1.5fr;
     grid-template-rows: 1fr 2fr;
     height: 120vh;
     width: 80vw;
+    grid-gap: 25px;
 }
 .bestSellers-image-1{
     width: 2.5fr;
@@ -95,8 +96,6 @@
     grid-row: 1/2;
     grid-column: 2/3;
     overflow: hidden;
-    margin-left: 45px;
-    margin-right: 30px;
 }
 .bestSellers-product-1 > h5{
     text-align: center;
@@ -112,7 +111,6 @@
     grid-row: 1/2;
     grid-column: 3/4;
     overflow: hidden; 
-    margin-right: 45px;
 }
 .bestSellers-product-2 > h5{
     text-align: center;
