@@ -1,0 +1,15 @@
+/* Menu bar */
+.menu{
+    height: 8vh;
+    width: 100vw;
+}
+/* Homepage hero banner */
+.hero-banner-image{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+.hero-banner-image img{
+    width: 50%;
+    height: 100%;
+}
