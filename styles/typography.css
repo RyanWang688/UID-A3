@@ -29,3 +29,11 @@ h3{
     font-size: var(--text-xl);
     font-family: var(--font-primary);
 }
+h4{
+    font-size: var(--text-lg);
+    font-family: var(--font-primary); 
+}
+h5{
+    font-size: var(--text-md);
+    font-family: var(--font-primary); 
+}
